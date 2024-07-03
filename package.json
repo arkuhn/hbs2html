@@ -1,0 +1,22 @@
+{
+  "name": "hbs2html",
+  "version": "1.0.0",
+  "description": "Watch and compile Handlebars templates to HTML",
+  "main": "index.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "bin": {
+    "hbs2html": "./cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "chokidar": "^3.6.0",
+    "commander": "^12.1.0",
+    "handlebars": "^4.7.8",
+    "inquirer": "^9.3.2"
+  }
+}
